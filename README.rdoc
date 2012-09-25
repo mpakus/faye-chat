@@ -1,0 +1,8 @@
+== Faye Chat
+This is a test application to see if I can build a chatroom with Faye.
+
+=== Test 1
+Basic Chat. 
+* User sign up
+* User Log in
+* Users can type messages to each other in realtime.
