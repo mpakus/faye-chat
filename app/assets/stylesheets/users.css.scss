@@ -1,0 +1,36 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	font-family: helvetica, verdana, sans-serif;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+p {
+	font-size: 12px;
+}
+
+.error_messages {
+	color: red;
+}
+
+.field{
+	margin: 5px;
+	display:block;
+	label {
+		float: left;  
+		width: 150px;  
+		margin-right: 10px;  
+		text-align: right;  
+		font-weight: bold;
+	}
+	input {
+		width: 150px;
+
+	}
+	
+
+}
