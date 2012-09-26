@@ -1,8 +1,11 @@
 class ChatsController < ApplicationController
 	before_filter :require_login
+  
+  # Here is the room
   def room
   end
   
+  # To send a new message
   def new_message
     # faye = URI.parse 'http://localhost:9292/faye'
     
@@ -25,4 +28,7 @@ class ChatsController < ApplicationController
       f.js
     end
   end
+  
+  #
+  
 end
