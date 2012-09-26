@@ -36,6 +36,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-
+gem 'thin'
 gem 'faye'
 gem 'sorcery'
+gem 'private_pub'

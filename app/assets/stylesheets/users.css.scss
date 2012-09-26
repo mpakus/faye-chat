@@ -31,6 +31,45 @@ p {
 		width: 150px;
 
 	}
-	
+}	
 
+.nav {
+	float:right;
+	font-size: 11px;
+	margin-bottom: 0px;
+	a {
+		text-decoration:none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
+
+.chat_container{
+	height:400px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+	#chat_room{
+		height:400px;
+		padding: 10px;
+		p {
+			font-size: 12px;
+			color: #333;
+			.alert{
+				font-style: italic;
+			}
+			.private{
+				font-weight:bold;
+				color: blue;
+			}
+			
+		}
+	}
+	#new_message_form{
+		input #message{
+			width: 400px;
+		}
+	}
+}
+
+
