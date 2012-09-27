@@ -54,16 +54,19 @@ p {
 		font-size: 12px;
 		margin: 5px;
 		padding: 0 5px;
-		ul li {
-			margin: 0;
-			padding: 0;
-			
+		ul {
+			float: left;
+			li {
+				margin: 0;
+				padding: 0;
+
+			}
 		}
 	}
 	#chat_room{
-		height:380px;
+		height:378px;
 		border: 1px solid #ccc;
-		width: 650px;
+		margin-right: 100px;
 		padding: 10px;
 		p {
 			font-size: 12px;
