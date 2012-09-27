@@ -49,8 +49,21 @@ p {
 	height:400px;
 	margin: 10px auto;
 	border: 1px solid #ccc;
+	#current_users {
+		float:right;
+		font-size: 12px;
+		margin: 5px;
+		padding: 0 5px;
+		ul li {
+			margin: 0;
+			padding: 0;
+			
+		}
+	}
 	#chat_room{
-		height:400px;
+		height:380px;
+		border: 1px solid #ccc;
+		width: 650px;
 		padding: 10px;
 		p {
 			font-size: 12px;
@@ -71,5 +84,6 @@ p {
 		}
 	}
 }
+
 
 

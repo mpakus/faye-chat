@@ -10,7 +10,18 @@
     $('<p></p>').addClass('private').html(data.username + ": " + data.msg).appendTo('#chat_room');
   });
 </script>
+
 <div class="chat_container">
+	<% if current_user %>
+		<div id="current_users"> 
+		  Users: 
+		  <ul>
+		  	<li>
+		  		<%= current_users_list %>
+		  	</li>
+		  </ul>
+		</div>
+	<% end %>
   <div id="chat_room">
     <p class="alert"> Welcome to the chat room <%= current_user.username.titleize %>! </p>
   </div>
