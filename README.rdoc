@@ -6,3 +6,9 @@ Basic Chat.
 * User sign up
 * User Log in
 * Users can type messages to each other in realtime.
+
+=== Test 2
+Small Features
+* Userlist with link to user profiles
+* Private Messages in pop-up window to lessen confusion
+* User has entered/left broadcast messages
